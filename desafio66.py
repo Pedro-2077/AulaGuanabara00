@@ -9,4 +9,4 @@ while True:
     s += n
     c +=1
 
-print(f'A soma dos {c} valores é {s}')
+print(f'A quantidade de numeros é {c} e a soma valores é {s}')

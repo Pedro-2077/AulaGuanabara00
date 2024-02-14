@@ -1,3 +1,4 @@
+from math import factorial
 print('===== DESAFIO 60 =====')
 
 fatorial = int(input('Digite o valor um numero para calcular seu fatorial: '))
@@ -11,3 +12,9 @@ while fatorial > 0:
     fatorial -= 1
 
 print(' = {}'.format(soma))
+
+'''OUTRA FORMA DE FAZER IMPORTANDO A BIBLIOTECA MATH'''
+
+inteiro = int(input('Digite um numero:'))
+f = factorial(inteiro)
+print(f)

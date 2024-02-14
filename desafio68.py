@@ -22,8 +22,9 @@ while True:
             if opcao == 'IMPAR':
                 print(f'A soma dos valores {jogador} e {computador} = {soma}/IMPAR')
                 print(f'O jogador ganhou')
+                cont +=1
             else:
-                print(f'A soma dos valores {jogador} e {computador} = {soma}/IMAPAR')
+                print(f'A soma dos valores {jogador} e {computador} = {soma}/IMPAR')
                 print(f'O Computador ganhou')
                 break
 
