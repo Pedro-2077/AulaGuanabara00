@@ -15,3 +15,8 @@ for c in range(0, len(n)):
 
 print(f'Os valores sorteados {n}')
 print(f'O maior valor é {maior} e o menor é {menor}')
+
+#OUTRA MANEIRA DE VER O MENOR VALOR
+
+print(f'O maior valor é {max(n)}') #max MAIOR DA TUPLA
+print(f'O menor valor é {min(n)}')#menor da TUPLA

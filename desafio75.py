@@ -17,7 +17,7 @@ if 3 in numeros:
 print(f'Valores Pares são {numerosPares}')
 
 '''
-
+'''
 n = int(input('Digite um numero: '))
 n2 = int(input('Digite um numero: '))
 n3 = int(input('Digite um numero: '))
@@ -38,5 +38,12 @@ for c in lista:
         numerosPares += 1
 
 print(f'Os valores pares digitados são {numerosPares}')
+'''
+#METODO QUANABA
+
+n = ((int(input('Digite um numero:'))), (int(input('Digite um numero:'))), (int(input('Digite um numero:'))),
+     (int(input('Digite um numero:'))), (int(input('Digite um numero:'))))
+
+print(f'Os valores digitados são: {n}')
 
 
