@@ -1,4 +1,5 @@
 import random
+from time import sleep
 print('===== DESAFIO 88 =====')
 
 jogos = list()
@@ -14,13 +15,14 @@ for c in range(0, qtd):
         jogos.append(dado)
     del dado
 
+jogos.sort()
 print('=-'*30)
 print(f'Matriz do game:{jogos}')
 print('=-'*30)
 
 for pos in range(0, qtd):
     print(f'O jogo {pos+1} é = {jogos[pos]} ')
-
+    sleep(1)
 
 
 
